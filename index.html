@@ -538,6 +538,8 @@
                                             <!-- Replace with your Access Key -->
                                             <input type="hidden" name="access_key" value="2ce7c613-79b4-4e4b-b768-9ddca72f0811">
 
+                                            <input type="hidden" name="subject" value="New Submission from Evolvtech">
+
                                             <div class="row">
                                                 <div class="form-group col-md-6">
                                                     <label for="name">Your Name</label>
@@ -589,6 +591,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <script src="https://web3forms.com/client/script.js" async defer></script>
+        <script>
+            window.onload = function() {
+                // Reset the form fields when the page loads
+                document.getElementById("form").reset();
+            };
+        </script>
 
         <!-- Main JS -->
         <script src="/assets/js/evolvtech.js"></script>
