@@ -1,54 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width,initial-scale=1.0" name="viewport">
 
-    <title>Home | Evolvtech</title>
-    <meta name="description" content="EvolvTech provides varied technological services to businesses & individuals. We focus on curating custom security outputs for varied personal & business scenarios. Client deliverables will be based on offerings that create safeguarded failsafe in both technology and service, while eliminating redundant outcomes."/>
-    <meta name="author" content="TBJ">
-    <meta name="robots" content="noindex, nofollow">
+        <title>Home | Evolvtech</title>
+        <meta content="EvolvTech provides varied technological services to businesses & individuals. We focus on curating custom security outputs for varied personal & business scenarios. Client deliverables will be based on offerings that create safeguarded failsafe in both technology and service, while eliminating redundant outcomes."
+              name="description"/>
+        <meta content="TBJ" name="author">
+        <meta content="noindex, nofollow" name="robots">
 
-    <!-- Open Graph Meta -->
-    <meta property="og:title" content="Evolvtech Limited">
-    <meta property="og:description" content="EvolvTech provides varied technological services to businesses & individuals. We focus on curating custom security outputs for varied personal & business scenarios. Client deliverables will be based on offerings that create safeguarded failsafe in both technology and service, while eliminating redundant outcomes.">
-    <meta property="og:url" content="https://evolvtech-gambia.com">
-    <meta property="og:image" content="{{ asset('media/favicons/favicon.png') }}">
-    <meta property="og:site_name" content="Evolvtech Limited">
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
+        <!-- Open Graph Meta -->
+        <meta content="Evolvtech Limited" property="og:title">
+        <meta content="EvolvTech provides varied technological services to businesses & individuals. We focus on curating custom security outputs for varied personal & business scenarios. Client deliverables will be based on offerings that create safeguarded failsafe in both technology and service, while eliminating redundant outcomes."
+              property="og:description">
+        <meta content="https://evolvtech-gambia.com" property="og:url">
+        <meta content="{{ asset('media/favicons/favicon.png') }}" property="og:image">
+        <meta content="Evolvtech Limited" property="og:site_name">
+        <meta content="en_US" property="og:locale"/>
+        <meta content="website" property="og:type"/>
 
-    <!-- Twitter Meta -->
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="Evolvtech Limited"/>
-    <meta name="twitter:description" content="EvolvTech provides varied technological services to businesses & individuals. We focus on curating custom security outputs for varied personal & business scenarios. Client deliverables will be based on offerings that create safeguarded failsafe in both technology and service, while eliminating redundant outcomes."/>
-    <meta name="twitter:site" content="@tjaybrownjr"/>
-    <meta name="twitter:image" content="https://evolvtech-gambia.com/assets/images/favicons/favicon.png') }}"/>
-    <meta name="twitter:creator" content="@tjaybrownjr"/>
+        <!-- Twitter Meta -->
+        <meta content="summary_large_image" name="twitter:card"/>
+        <meta content="Evolvtech Limited" name="twitter:title"/>
+        <meta content="EvolvTech provides varied technological services to businesses & individuals. We focus on curating custom security outputs for varied personal & business scenarios. Client deliverables will be based on offerings that create safeguarded failsafe in both technology and service, while eliminating redundant outcomes."
+              name="twitter:description"/>
+        <meta content="@tjaybrownjr" name="twitter:site"/>
+        <meta content="https://evolvtech-gambia.com/assets/images/favicons/favicon.png') }}" name="twitter:image"/>
+        <meta content="@tjaybrownjr" name="twitter:creator"/>
 
-    <!-- Icons -->
-    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/android-chrome-192x192.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
-    <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
+        <!-- Icons -->
+        <link href="/assets/images/favicons/favicon.ico" rel="shortcut icon">
+        <link href="/assets/images/favicons/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png">
+        <link href="/assets/images/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+        <link href="/assets/images/favicons/site.webmanifest" rel="manifest">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+              rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css" integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Vendor CSS Files -->
+        <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+              integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+              referrerpolicy="no-referrer" rel="stylesheet"/>
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+              integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css"
+              integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ=="
+              referrerpolicy="no-referrer" rel="stylesheet"/>
+        <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css"
+              integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw=="
+              referrerpolicy="no-referrer" rel="stylesheet"/>
+        <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+              integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
+              referrerpolicy="no-referrer" rel="stylesheet"/>
 
-    <!-- Main CSS File -->
-    <link rel="stylesheet" href="/assets/css/evolvtech.css">
-  </head>
+        <!-- Main CSS File -->
+        <link href="/assets/css/evolvtech.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="fixed-top" id="header">
+            <div class="container d-flex align-items-center">
+                <!-- Logo -->
+                <a class="logo me-auto" href="/index.html">
+                    <img alt="logo" class="img-fluid" src="/assets/images/favicons/favicon.png">
+                </a>
 
-  <body>
+                <!-- Navbar -->
+                <nav class="navbar" id="navbar">
+                    <ul>
+                        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                        <li><a class="nav-link scrollto" href="#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                        <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+                        <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                        <li><a class="getstarted scrollto" href="https://app.evolvtech-gambia.com/login">SIGN IN</a></li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+            </div>
+        </header>
 
-  </body>
+        <!-- Hero Section -->
+        <section class="d-flex align-items-center" id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                         data-aos="fade-up" data-aos-delay="200">
+                        <h1>Better Solutions For Your Business</h1>
+                        <h2>
+                            We build Web Applications that are easily scalable and secure, helping you achieve your business
+                            goals.
+                        </h2>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <a class="btn-get-started scrollto" href="#">Get in touch</a>
+                            <a class="glightbox btn-watch-video" href="https://www.youtube.com/watch?v=sQD7kaZ5h0s">
+                                <i class="bi bi-play-circle"></i>
+                                <span>Watch Video</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                        <img alt="background-image" class="img-fluid animated" src="/assets/images/hero-img.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main -->
+        <main id="main">
+            <!-- Client Section -->
+            <section id="clients" class="clients section-bg">
+                <div class="container">
+                    <div class="row" data-aos="zoom-in">
+                        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                            <img src="/assets/images/clients/connectma.png" class="img-fluid" alt="Connectma">
+                        </div>
+
+                        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                            <img src="/assets/images/clients/lux-dental-logo-two.png" class="img-fluid" alt="Lux Dental">
+                        </div>
+
+                        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                            <img src="/assets/images/clients/client-3.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                            <img src="/assets/images/clients/client-4.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                            <img src="/assets/images/clients/client-5.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                            <img src="/assets/images/clients/natty-locks-boutique.png" class="img-fluid" alt="Natty Locks Boutique">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Vendor JS Files -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js" integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+        <!-- Main JS -->
+        <script src="/assets/js/evolvtech.js"></script>
+    </body>
 </html>
