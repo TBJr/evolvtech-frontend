@@ -294,6 +294,58 @@
                 </div>
             </section>
 
+            <!-- Skills Section -->
+            <section id="skills" class="skills">
+                <div class="container" data-aos="fade-up">
+                    <div class="row">
+                        <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                            <img src="assets/images/skills.webp" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+                            <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+                            <p class="fst-italic">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </p>
+
+                            <div class="skills-content">
+
+                                <div class="progress">
+                                    <span class="skill">HTML <i class="val">100%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+
+                                <div class="progress">
+                                    <span class="skill">CSS <i class="val">90%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+
+                                <div class="progress">
+                                    <span class="skill">JavaScript <i class="val">75%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+
+                                <div class="progress">
+                                    <span class="skill">Photoshop <i class="val">55%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
             <!-- Our Services -->
             <section id="services" class="services section-bg">
                 <div class="container" data-aos="fade-up">
@@ -400,6 +452,131 @@
                 </div>
             </section>
 
+            <!-- Portfolio -->
+            <section id="portfolio" class="portfolio">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Portfolio</h2>
+                        <p></p>
+                    </div>
+
+                    <ul id="portfolio-flters" class="d-md-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-website">Website</li>
+                        <li data-filter=".filter-logo-design">Logo Design</li>
+                        <li data-filter=".filter-application">Mobile and Web App</li>
+                        <li data-filter=".filter-drone-shoots">Drone Shoots</li>
+                    </ul>
+
+                    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                        <!-- Filter App -->
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-application">
+                            <div class="portfolio-img">
+                                <img src="{{ asset('frontend/assets/img/portfolio/lux-dental-portfolio/Lux-Dental-Login.png') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Lux Dental Clinic</h4>
+                                <p>Dental Services</p>
+                                <a href="{{ asset('frontend/assets/img/portfolio/lux-dental-portfolio/Lux-Dental-Dashboard.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Screenshoots">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+
+                                <a href="{{ route('luxDentalClinic') }}" class="details-link" title="More Details">
+                                    <i class="bi bi-info-circle"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-application">
+                            <div class="portfolio-img">
+                                <img src="{{ asset('frontend/assets/img/portfolio/pgre.png') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Properties Gambia Real Estate</h4>
+                                <p>Properties Management</p>
+                                <a href="{{ asset('frontend/assets/img/portfolio/pgre-team.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Properties Gambia Real Estate">
+                                    <i class="bx bx-plus"></i>
+                                </a>
+                                <a href="https://www.propertiesgambia.co.uk" class="details-link" title="More Details">
+                                    <i class="bx bx-link"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-application">
+                            <div class="portfolio-img">
+                                <img src="#" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="portfolio-info">
+                                <h4>Natty Locks Boutique</h4>
+                                <p>Hair Styling</p>
+                                <a href="#" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Natty Locks Boutique">
+                                    <i class="bx bx-link"></i>
+                                </a>
+                                <a href="https://www.nattylocksboutique.com" class="details-link" title="More Details">
+                                    <i class="bx bx-link"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Filter Website -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-website">
+                            <div class="portfolio-img">
+                                <img src="{{ asset('frontend/assets/img/portfolio/IG.png') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Investment In The Gambia</h4>
+                                <p>Properties Investment</p>
+                                <a href="{{ asset('frontend/assets/img/portfolio/IG-smilling-cost.png') }}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2">
+                                    <i class="bx bx-plus"></i>
+                                </a>
+                                <a href="https://www.investments-gambia.com" class="details-link" title="More Details">
+                                    <i class="bx bx-link"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-website">
+                            <div class="portfolio-img">
+                                <img src="{{ asset('frontend/assets/img/portfolio/lhp.png') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Lamp House Production</h4>
+                                <p>Media Entertainment</p>
+                                <a href="{{ asset('frontend/assets/img/portfolio/lhp-contactus.png') }}" alt="" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Lamp House Production">
+                                    <i class="bx bx-plus"></i>
+                                </a>
+                                <a href="#" class="details-link" title="More Details">
+                                    <i class="bx bx-link"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Filter Logo Design -->
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-logo-design">
+                            <div class="portfolio-img">
+                                <img src="" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="portfolio-info">
+                                <h4>YouDou</h4>
+                                <p>Fragrance Store</p>
+                                <a href="#" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="youdou">
+                                    <i class="bx bx-plus"></i>
+                                </a>
+                                <a href="#" class="details-link" title="More Details">
+                                    <i class="bx bx-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
             <!-- Call to Action -->
 <!--            <section id="cta" class="cta">-->
 <!--                <div class="container" data-aos="zoom-in">-->
@@ -429,7 +606,7 @@
 
                     <div class="row">
                         <!-- Thomas Brown -->
-                        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="col-lg-3" data-aos="zoom-in" data-aos-delay="100">
                             <div class="member d-flex align-items-start">
                                 <!-- Profile picture -->
                                 <!--    <div class="pic">
@@ -452,7 +629,7 @@
                         </div>
 
                         <!-- Shirl Imes -->
-                        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="col-lg-3 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
                             <div class="member d-flex align-items-start">
                                 <!-- Profile picture -->
                                 <!--    <div class="pic">
@@ -475,7 +652,7 @@
                         </div>
 
                         <!-- Miss Akua Ishangi -->
-                        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="col-lg-3 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
                             <div class="member d-flex align-items-start">
                                 <!-- Profile picture -->
                                 <!--    <div class="pic">
@@ -492,6 +669,29 @@
                                         <!-- <a href=""><i class="ri-facebook-fill"></i></a> -->
                                         <a href="https://instagram.com/Shirlalana"><i class="ri-instagram-fill"></i></a>
                                         <a href="https://linkedin.com/in/shirletteimes/"> <i class="ri-linkedin-box-fill"></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Thierno Fall -->
+                        <div class="col-lg-3 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="member d-flex align-items-start">
+                                <!-- Profile picture -->
+                                <!--    <div class="pic">
+                                    <img src="" class="img-fluid" alt="">
+                                </div> -->
+
+                                <!-- Profile Info -->
+                                <div class="member-info">
+                                    <h4>Thierno Fall</h4>
+                                    <span>Junior Software Developer</span>
+                                    <p></p>
+                                    <div class="social">
+                                        <a href="https://twitter.com/"><i class="ri-twitter-fill"></i></a>
+                                        <!-- <a href=""><i class="ri-facebook-fill"></i></a> -->
+                                        <a href="https://instagram.com/"><i class="ri-instagram-fill"></i></a>
+                                        <a href="https://www.linkedin.com/in/thierno-fall-44792a209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <i class="ri-linkedin-box-fill"></i> </a>
                                     </div>
                                 </div>
                             </div>
@@ -517,7 +717,7 @@
                                     <i class="bi bi-geo-alt"></i>
                                     <h4>Location:</h4>
                                     <p>
-                                        Bijilo, <br>
+                                        Brusubi, <br>
                                         The Gambia
                                     </p>
                                 </div>
@@ -591,22 +791,22 @@
 
         <!-- Footer -->
         <footer id="footer">
-<!--            <div class="footer-newsletter">-->
-<!--                <div class="container">-->
-<!--                    <div class="row justify-content-center">-->
-<!--                        <div class="col-lg-6">-->
-<!--                            <h4>Join Our Newsletter</h4>-->
-<!--                            <p>-->
-<!--                                Subscribe to our newsletters now and stay up to date with the latest and exclusive offers, free giveaways, new collections, product launches.-->
-<!--                            </p>-->
-<!--                            <form action="#" method="post" class="mailchimp-form subscribe-form-wrap">-->
-<!--                                <input class="form-control" type="email" name="email" placeholder="Your email" autocomplete="email">-->
-<!--                                <input type="submit" value="Subscribe">-->
-<!--                            </form>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class="footer-newsletter">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <h4>Join Our Newsletter</h4>
+                            <p>
+                                Subscribe to our newsletters now and stay up to date with the latest and exclusive offers, free giveaways, new collections, product launches.
+                            </p>
+                            <form action="#" method="post" class="mailchimp-form subscribe-form-wrap">
+                                <input class="form-control" type="email" name="email" placeholder="Your email" autocomplete="email">
+                                <input type="submit" value="Subscribe">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="footer-top">
                 <div class="container">
@@ -614,10 +814,10 @@
                         <div class="col-lg-3 col-md-6 footer-contact">
                             <h3>EVOLVTTECH LTD..</h3>
                             <p>
-                                Bijilo <br>
+                                Brusubi <br>
                                 The Gambia <br><br>
                                 <strong>Phone:</strong> +(220) 712 2989 | +(220) 216 0703<br>
-                                <strong>Email:</strong> info@evolvtech-gambia.com<br>..
+                                <strong>Email:</strong> info@evolvtech-gambia.com<br>
                             </p>
                         </div>
 
@@ -675,6 +875,13 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container footer-bottom clearfix">
+                <div class="copyright">
+                    &copy; 2020 - <span id="currentYear"></span>
+                    <strong><span>Evolvtech Ltd.</span></strong>.&nbsp;All Rights Reserved
+                </div>
+            </div>
         </footer>
 
         <!-- Vendor JS Files -->
@@ -694,6 +901,11 @@
 
         <!-- Form validation -->
         <script defer src="assets/js/form-validation.js"></script>
+
+        <script>
+            // JavaScript to display the current year
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+        </script>
 
         <!-- Main JS -->
         <script src="/assets/js/evolvtech.js"></script>
